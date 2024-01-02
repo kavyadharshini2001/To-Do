@@ -62,9 +62,9 @@ function Todo() {
       <div className="container w-50 m-auto text-center ">
         <div className="row">
           <div className="col-6">
-            <textarea
+            <input
               typeof="text"
-              style={{ width: "50%" }}
+              style={{ width: "80%",height:"50px" }}
               name="list"
               value={todo.list}
               onChange={(e) => handleChange(e)}
