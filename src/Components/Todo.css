@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #c33764,
+    #a62a6f,
+    #822675,
+    #572676,
+    #1d2671
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.textedit {
+  color: #c33764;
+}
+.btnedit {
+  background-color: #fa1b7f;
+  color: indigo;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+
+  .col-6 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .col-3 {
+    width: 48%;
+    margin-right: 2%;
+  }
+
+  .texteedit {
+    font-size: 20px;
+  }
+
+  .fs-5 {
+    font-size: 14px;
+  }
+}
